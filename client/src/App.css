@@ -1,0 +1,57 @@
+* {
+  background-color: lightcyan;
+}
+
+.placard {
+  border: lightcoral;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  min-height: 30rem;
+  padding: 20px;
+}
+form {
+  background-color: transparent;
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  
+}
+
+.chat-field {
+  background-color: transparent;
+  margin-bottom: 40px;
+  
+}
+
+
+button {
+  background-color: lightcoral;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: medium;
+  font-style: italic;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.display-chat {
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+h3 {
+  color:darkslateblue;
+}
+
+span {
+  font-style: italic;
+  color: darkgreen;
+}
